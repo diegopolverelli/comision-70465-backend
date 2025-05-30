@@ -1,0 +1,23 @@
+{
+  "name": "01-nodets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./dist/app.js",
+    "dev:ts": "tsc --watch",
+    "tsc":"tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  }
+}
